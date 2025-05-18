@@ -38,7 +38,7 @@
 <div class="navbar-message">Welcome to the site!</div>
 <nav class="navbar">
   <div class="navbar-bar">
-    <a href="./" class="navbar-brand">Hello World Corp</a>
+    <a href="./" class="navbar-brand uppercase">Hello World Corp</a>
     <button type="button" class="navbar-menu">Menu</button>
   </div>
   <ul class="navbar-links">
@@ -49,9 +49,9 @@
   </ul>
 </nav>
 
-  <div class="container">
+  <main class="container">
     <div class="text-center section">
-      <h1>Hello World Corp</h1>
+      <h1 class="uppercase">Hello World Corp</h1>
       <img src="https://placehold.co/600x400" alt="">
       <p class="lead">A vanilla CSS demo site.</p>
       <a href="" class="button large">Learn More</a>
@@ -60,70 +60,69 @@
 
 
     <!-- FEATURES -->
-    <h2 id="features">Features</h2>
-    <div class="grid">
-      <div>
-        <h3>Modern Normalize</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
+    <section id="features">
+      <h2>Features</h2>
+      <div class="grid">
+        <div>
+          <h3>Modern Normalize</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
+        </div>
+        <div>
+          <h3>simpledev.css</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
+        </div>
+        <div>
+          <h3>Dark Mode</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
+        </div>
       </div>
-
-      <div>
-        <h3>simpledev.css</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
-      </div>
-
-      <div>
-        <h3>Dark Mode</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae natus voluptatem voluptates esse libero hic, maiores temporibus aperiam necessitatibus aut sequi quia cumque voluptas tempore provident ab, eum praesentium?</p>
-      </div>
-    </div>
+    </section>
 
 
 
     <!-- FAQ -->
-    <h2 id="faq">FAQ</h2>
-    <details>
-      <summary>Lorem ipsum dolor?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
-    </details>
-
-    <details>
-      <summary>Dolorem magnam error?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
-    </details>
-
-    <details>
-      <summary>Vitae minus molestiae?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
-    </details>
+    <section id="faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Lorem ipsum dolor?</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
+      </details>
+      <details>
+        <summary>Dolorem magnam error?</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
+      </details>
+      <details>
+        <summary>Vitae minus molestiae?</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam error facilis illo inventore quod excepturi, itaque quas aliquam officia rerum doloremque. Vitae minus molestiae, itaque hic maiores quam non?</p>
+      </details>
+    </section>
 
 
 
     <!-- CONTACT -->
-    <h2 id="contact">Contact</h2>
-    <form action="" method="post">
-      <div>
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="John Smith" required>
-      </div>
-
-      <div>
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="john@example.com" required>
-      </div>
-
-      <label for="department">Department</label>
-      <select name="department" id="department">
-        <option value="sales">Sales</option>
-        <option value="tech">Tech Support</option>
-        <option value="other">Other</option>
-      </select>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" required></textarea>
-      <button>Submit</button>
-    </form>
-  </div>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="John Smith" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <label for="department">Department</label>
+        <select name="department" id="department">
+          <option value="sales">Sales</option>
+          <option value="tech">Tech Support</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+  </main>
 
 
 
